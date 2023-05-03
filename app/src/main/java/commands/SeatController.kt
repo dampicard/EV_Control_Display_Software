@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -19,7 +20,8 @@ class SeatController : AppCompatActivity() {
 	private lateinit var speechRecognizer : SpeechRecognizer
 
 	private fun handleTimeout(){
-		//Toast.makeText(this, getString(R.string.speak_again), Toast.LENGTH_SHORT).show()
+
+		Toast.makeText(this, getString(R.string.speak_again), Toast.LENGTH_SHORT).show()
 	}
 
 	fun handleListening() {
