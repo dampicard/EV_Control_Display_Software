@@ -1,0 +1,5 @@
+package mediahandler
+
+class MusicHandler {
+
+}

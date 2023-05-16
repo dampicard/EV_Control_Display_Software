@@ -1,0 +1,8 @@
+<resources>
+	<string name="connect_label">"Connect"</string>
+	<string name="content_not_found">"Content cannot be found on any web platform"</string>
+	<string name="default_text">"Tap to speak"</string>
+	<string name="listening">"Listening..."</string>
+	<string name="speak_again">"please, speak again"</string>
+	<string name="computing">"Computing..."</string>
+</resources>

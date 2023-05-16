@@ -1,0 +1,5 @@
+package externalapis
+
+class MediaQuery {
+
+}
